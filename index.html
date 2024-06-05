@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_103_Sanetchek/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+    <script type="module" crossorigin src="/js_103_Sanetchek/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_103_Sanetchek/assets/vendor-82a02ed5.js">
+    <link rel="stylesheet" href="/js_103_Sanetchek/assets/vendor-62eeb4fd.css">
+    <link rel="stylesheet" href="/js_103_Sanetchek/assets/index-fcdee199.css">
+  </head>
+  <body>
+    <div class="loader-overlay">
+  <span class="loader"></span>
+</div>
+
+    <header id="header">
+  <div class="header">
+    <div class="header-wrap">
+      <div class="header-container">
+        <a
+          class="logo-header"
+          href="https://sanetchek.github.io/portfolio/"
+          aria-label="Home"
+          tabindex="0"
+          >LLOYD<span class="green-text">JEFFERSON</span></a
+        >
+        <div class="header-navigation">
+          <label
+            for="mode-switcher"
+            class="switcher"
+            aria-label="Site Color Mode"
+            tabindex="0"
+            ><input type="checkbox" id="mode-switcher" tabindex="-1" /><span
+              class="slider"
+            ></span
+          ></label>
+          <nav class="menu-nav-tabl">
+            <ul class="menu-list">
+              <li id="menu_about" class="menu-list-item">
+                <a
+                  href="#about"
+                  id="about-link"
+                  class="menu-list-link"
+                  aria-label="About me"
+                  tabindex="0"
+                  >About me</a
+                >
+              </li>
+              <li id="menu_yachts" class="menu-list-item">
+                <a
+                  href="#my-projects"
+                  id="project-link"
+                  class="menu-list-link"
+                  aria-label="Projects"
+                  tabindex="0"
+                  >Projects</a
+                >
+              </li>
+              <li id="menu_review" class="menu-list-item">
+                <a
+                  href="#contacts"
+                  id="contacts-link"
+                  class="menu-list-link"
+                  aria-label="Contacts"
+                  tabindex="0"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button
+            type="button"
+            class="open-menu-but"
+            id="show-menu"
+            aria-label="Open Menu"
+            tabindex="0"
+          >
+            <svg class="burger-icon" width="32" height="32">
+              <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-menu">
+    <div class="menu-wrap">
+      <div class="menu-nav-wrap">
+        <div class="menu">
+          <a
+            class="header-menu-logo"
+            href="/portfolio/"
+            aria-label="Home"
+            tabindex="0"
+            >LLOYD<span>JEFFERSON</span></a
+          ><button
+            type="button"
+            class="close-menu-but"
+            id="close-menu"
+            aria-label="Close Menu"
+            tabindex="0"
+          >
+            <svg class="close-icon" width="32" height="32">
+              <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-x"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="menu-nav">
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a
+                href="#about"
+                class="menu-list-link menu-link-js"
+                aria-label="About me"
+                tabindex="0"
+                >About me</a
+              >
+            </li>
+            <li class="menu-list-item">
+              <a
+                href="#my-projects"
+                class="menu-list-link menu-link-js"
+                aria-label="Projects"
+                tabindex="0"
+                >Projects</a
+              >
+            </li>
+            <li class="menu-list-item" aria-label="Contacts" tabindex="0">
+              <a href="#contacts" class="menu-list-link menu-link-js"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <main class="main">
+      <section class="hero">
+  <div class="container">
+    <div class="hero-background"></div>
+    <h1 class="hero-title" data-aos="fade-up">
+      Hello, I am
+      <picture>
+        <source
+          srcset="/js_103_Sanetchek/assets/hero-dt-1x-157b55f8.jpg 1x, /js_103_Sanetchek/assets/hero-dt-2x-eb0a6720.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <img
+          class="hero-foto"
+          src="/js_103_Sanetchek/assets/hero-dt-1x-157b55f8.jpg"
+          alt="Lloyd Jefferson's photo"
+          width="108"
+          height="108"
+          loading="lazy"
+        />
+      </picture>
+      <br />
+      <span class="green-text"> Fullstack developer </span>
+    </h1>
+    <div class="hero-content-wrapper">
+      <a
+        href="#contacts"
+        id="hero-link"
+        aria-label="Hero section"
+        tabindex="0"
+        class="hero-btn-wrapper"
+        data-aos="fade-right"
+      >
+        <svg width="28" height="16" class="hero-btn-icon">
+          <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-arrow-right"></use>
+        </svg>
+        <span class="hero-button"> Order the project </span>
+        <span class="hero-btn-style"></span>
+      </a>
+
+      <p class="hero-text" data-aos="fade-left">
+        I work with people all over the world to create
+        <span class="green-text">impressive</span> and
+        <span class="green-text">functional websites</span> that reflect each
+        client’s unique personality.
+      </p>
+    </div>
+  </div>
+
+  <div class="hero-soc-link">
+    <ul>
+      <li class="hero-link" data-aos="fade-right" data-aos-delay="100">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="Instagram"
+          tabindex="0"
+          >Instagram
+        </a>
+      </li>
+      <li class="hero-link" data-aos="fade-right" data-aos-delay="200">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="Facebook"
+          tabindex="0"
+          >Facebook
+        </a>
+      </li>
+      <li class="hero-link" data-aos="fade-right" data-aos-delay="300">
+        <a
+          href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+          target="_blank"
+          aria-label="Linkedin"
+          tabindex="0"
+          >Linkedin
+        </a>
+      </li>
+      <li class="hero-link" data-aos="fade-right" data-aos-delay="400">
+        <a
+          href="https://github.com/Sanetchek/portfolio"
+          target="_blank"
+          aria-label="GitHub"
+          tabindex="0"
+          >GitHub
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="container spacer" id="about">
+  <div class="wrap-box-about">
+    <h2 class="title-about" data-aos="fade-up">
+      ABOUT <span class="green-text"> ME</span>
+    </h2>
+    <div class="about-wrap">
+      <div class="about-me-photo">
+        <picture class="my-photo" data-aos="fade-right">
+          <source
+            srcset="/js_103_Sanetchek/assets/desk-aboutme-1x-74198477.jpg 1x, /js_103_Sanetchek/assets/desk-aboutme-2x-27bbdaca.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+
+          <source
+            srcset="/js_103_Sanetchek/assets/tab-aboutme-1x-c93bcd47.jpg 1x, /js_103_Sanetchek/assets/tab-aboutme-2x-1e964587.jpg 2x"
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="/js_103_Sanetchek/assets/mob-aboutme-1x-33cf92e9.jpg 1x, /js_103_Sanetchek/assets/mob-aboutme-2x-244aa01d.jpg 2x"
+            media="(max-width: 767px)"
+          />
+
+          <img
+            src="/js_103_Sanetchek/assets/desk-aboutme-1x-74198477.jpg"
+            alt="my photo"
+            width="384"
+            height="448"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <div class="bio">
+        <h3 class="classic-title" data-aos="fade-left" data-aos-delay="100">
+          BIO
+        </h3>
+        <div class="text-wrap">
+          <p class="text-style" data-aos="fade-left" data-aos-delay="200">
+            I'm Lloyd Jefferson, a talented programmer specializing in software
+            development. My expertise spans various programming languages and
+            technologies, and I am dedicated to continually enhancing my skills.
+            I thrive on seeking unconventional and creative solutions to
+            problems, leveraging a high level of analytical skills to
+            effectively tackle even the most challenging tasks.
+          </p>
+          <p class="text-style" data-aos="fade-left" data-aos-delay="300">
+            Adaptable to both independent and team-oriented work, I collaborate
+            seamlessly with colleagues, exchanging ideas and finding optimal
+            solutions. My professional maturity enables me to navigate
+            challenges and stressful situations with a calm demeanor,
+            maintaining a consistently high quality of work. Committed to
+            self-improvement, I actively engage in studying new technologies and
+            practices to stay current with the latest innovations in the field.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="aboutme-decore"></div>
+    <div class="content-wrap">
+      <div class="education" data-aos="fade-up">
+        <h3 class="classic-title">EDUCATION</h3>
+        <ul class="education-list">
+          <li class="text-style psevdo">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+          </li>
+
+          <li class="text-style psevdo">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+            New York
+          </li>
+          <li class="text-style psevdo">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </li>
+        </ul>
+      </div>
+      <div class="role" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="classic-title">ROLE</h3>
+        <ul class="role-list">
+          <li class="text-style psevdo">Frontend development</li>
+          <li class="text-style psevdo">HeadlessCMS, Wordpress</li>
+          <li class="text-style psevdo">Blender (enjoy)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="tech-skill spacer">
+  <h2 class="visually-hidden">Tech Skills</h2>
+  <div class="skill-item geen-dot">
+    <p class="tech-skill-line">
+      HTML/CSS
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      JavaScript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      React
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Node. js
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Native
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Typescript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      &nbsp;
+    </p>
+    <p class="tech-skill-line">
+      HTML/CSS
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      JavaScript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      React
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Node. js
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Native
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Typescript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      &nbsp;
+    </p>
+    <p class="tech-skill-line">
+      HTML/CSS
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      JavaScript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      React
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Node. js
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Native
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Typescript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      &nbsp;
+    </p>
+  </div>
+  <div class="skill-item-other">
+    <p class="tech-skill-line">
+      Typescript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      HTML/CSS
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      JavaScript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      React
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Node. js
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Native
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      &nbsp;
+    </p>
+    <p class="tech-skill-line">
+      Typescript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      HTML/CSS
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      JavaScript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      React
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Node. js
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Native
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      &nbsp;
+    </p>
+    <p class="tech-skill-line">
+      Typescript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      HTML/CSS
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      JavaScript
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      React
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Node. js
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      Native
+      <svg class="icon-dot" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-dot"></use>
+      </svg>
+      &nbsp;
+    </p>
+  </div>
+</section>
+
+      <section class="my-projects spacer" id="my-projects">
+  <div class="container">
+    <h2 class="my-projects-title" data-aos="fade-up">
+      My <span class="green-text">projects</span>
+    </h2>
+    <ul class="my-projects-list js-my-projects-list">
+      <li
+        class="my-projects-list-item js-my-projects-list-item"
+        data-aos="fade-up"
+      >
+        <img
+          class="my-projects-img"
+          srcset="/js_103_Sanetchek/assets/my-projects-img--mobile--1-04902ff8.jpg 320w, /js_103_Sanetchek/assets/my-projects-img--mobile--1@2x-63d0209c.jpg 640w, /js_103_Sanetchek/assets/my-projects-img--tablet--1-bf6e6304.jpg 704w, /js_103_Sanetchek/assets/my-projects-img--tablet--1@2x-70237bb9.jpg 1408w, /js_103_Sanetchek/assets/my-projects-img--desktop--1-e6ce6ef4.jpg 1008w, /js_103_Sanetchek/assets/my-projects-img--desktop--1@2x-dd987580.jpg 2016w"
+          sizes="(min-width: 1280px) 1008px, (min-width: 768px) 704px, (min-width: 360px) 320px, (max-width: 359px) calc(100vw - 40px)"
+          src="/js_103_Sanetchek/assets/my-projects-img--mobile--1-04902ff8.jpg"
+          alt="Wallet webservice"
+          width="320"
+          height="184"
+          loading="lazy"
+        />
+        <div class="my-projects-stack">React, JavaScript, Node JS, Git</div>
+        <div class="my-projects-name-link">
+          <h3 class="my-projects-name">Wallet webservice</h3>
+          <a
+            class="my-projects-link"
+            href="https://sanetchek.github.io/portfolio/"
+            aria-label="Visit website"
+            tabindex="0"
+            target="_blank"
+          >
+            Visit
+            <svg
+              class="my-projects-link-icon icon-arrow-up-right"
+              width="24"
+              height="24"
+            >
+              <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-arrow-up-right"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li
+        class="my-projects-list-item js-my-projects-list-item"
+        data-aos="fade-up"
+      >
+        <img
+          class="my-projects-img"
+          srcset="/js_103_Sanetchek/assets/my-projects-img--mobile--2-0eeeea28.jpg 320w, /js_103_Sanetchek/assets/my-projects-img--mobile--2@2x-b0d311dc.jpg 640w, /js_103_Sanetchek/assets/my-projects-img--tablet--2-1e4457bd.jpg 704w, /js_103_Sanetchek/assets/my-projects-img--tablet--2@2x-68e63fd8.jpg 1408w, /js_103_Sanetchek/assets/my-projects-img--desktop--2-15df5ba6.jpg 1008w, /js_103_Sanetchek/assets/my-projects-img--desktop--2@2x-1cc65f38.jpg 2016w"
+          sizes="(min-width: 1280px) 1008px, (min-width: 768px) 704px, (min-width: 360px) 320px, (max-width: 359px) calc(100vw - 40px)"
+          src="/js_103_Sanetchek/assets/my-projects-img--mobile--2-0eeeea28.jpg"
+          alt="Green harvest webservice"
+          width="320"
+          height="184"
+          loading="lazy"
+        />
+        <div class="my-projects-stack">React, JavaScript, Node JS, Git</div>
+        <div class="my-projects-name-link">
+          <h3 class="my-projects-name">Green harvest webservice</h3>
+          <a
+            class="my-projects-link"
+            href="https://sanetchek.github.io/portfolio/"
+            aria-label="Visit website"
+            tabindex="0"
+            target="_blank"
+          >
+            Visit
+            <svg
+              class="my-projects-link-icon icon-arrow-up-right"
+              width="24"
+              height="24"
+            >
+              <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-arrow-up-right"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li
+        class="my-projects-list-item js-my-projects-list-item"
+        data-aos="fade-up"
+      >
+        <img
+          class="my-projects-img"
+          srcset="/js_103_Sanetchek/assets/my-projects-img--mobile--3-c40f39a1.jpg 320w, /js_103_Sanetchek/assets/my-projects-img--mobile--3@2x-f07e2339.jpg 640w, /js_103_Sanetchek/assets/my-projects-img--tablet--3-9fb47d48.jpg 704w, /js_103_Sanetchek/assets/my-projects-img--tablet--3@2x-4045df70.jpg 1408w, /js_103_Sanetchek/assets/my-projects-img--desktop--3-686e0617.jpg 1008w, /js_103_Sanetchek/assets/my-projects-img--desktop--3@2x-554f5044.jpg 2016w"
+          sizes="(min-width: 1280px) 1008px, (min-width: 768px) 704px, (min-width: 360px) 320px, (max-width: 359px) calc(100vw - 40px)"
+          src="/js_103_Sanetchek/assets/my-projects-img--mobile--3-c40f39a1.jpg"
+          alt="English Exellence webservice"
+          width="320"
+          height="184"
+          loading="lazy"
+        />
+        <div class="my-projects-stack">React, JavaScript, Node JS, Git</div>
+        <div class="my-projects-name-link">
+          <h3 class="my-projects-name">English Exellence webservice</h3>
+          <a
+            class="my-projects-link"
+            href="https://sanetchek.github.io/portfolio/"
+            aria-label="Visit website"
+            tabindex="0"
+            target="_blank"
+          >
+            Visit
+            <svg
+              class="my-projects-link-icon icon-arrow-up-right"
+              width="24"
+              height="24"
+            >
+              <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-arrow-up-right"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+    <div class="my-projects-load-more js-my-projects-load-more">
+      <button
+        class="my-projects-load-more-btn js-my-projects-load-more-btn"
+        type="button"
+        aria-label="Load More Projects"
+        tabindex="0"
+        data-aos="fade-up"
+      >
+        <span class="my-projects-load-more-btn-text">Load more</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section id="benefits" class="spacer">
+  <div class="container">
+    <div class="background-benefits"></div>
+    <h2 class="title-benefits" data-aos="fade-up">
+      <span class="green-text">benefits</span> of working with me
+    </h2>
+    <div class="benefits-common">
+      <div class="benefits-width" data-aos="flip-right" data-aos-delay="100">
+        <div class="icon-benefits">
+          <svg class="icon-color" width="24" height="24">
+            <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-user"></use>
+          </svg>
+        </div>
+        <h3 class="item-benefits">Expertise</h3>
+        <p class="text-benefits">
+          With extensive experience in development, I have a deep understanding
+          of programming and website development.
+        </p>
+      </div>
+      <div class="benefits-width" data-aos="flip-right" data-aos-delay="200">
+        <div class="icon-benefits">
+          <svg class="icon-color" width="24" height="24">
+            <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-chat"></use>
+          </svg>
+        </div>
+        <h3 class="item-benefits">Communication</h3>
+        <p class="text-benefits">
+          Understanding your needs and wants is my priority and I am always
+          available for discussions and open to corrections.
+        </p>
+      </div>
+      <div class="benefits-width" data-aos="flip-right" data-aos-delay="300">
+        <div class="icon-benefits">
+          <svg class="icon-color" width="24" height="24">
+            <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-brush"></use>
+          </svg>
+        </div>
+        <h3 class="item-benefits">Art</h3>
+        <p class="text-benefits">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </div>
+      <div class="benefits-width" data-aos="flip-right" data-aos-delay="400">
+        <div class="icon-benefits">
+          <svg class="icon-color" width="24" height="24">
+            <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-hourglass"></use>
+          </svg>
+        </div>
+        <h3 class="item-benefits">Urgent execution</h3>
+        <p class="text-benefits">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="spacer">
+  <div class="container faq-container">
+    <div class="faq-title-wrapper">
+      <h2 class="faq-title" data-aos="fade-up">
+        frequently asked <span class="green-text">question</span>
+      </h2>
+    </div>
+    <div class="faq-wrapper-list">
+      <ul class="faq-list">
+        <li class="faq-list-item ac" data-aos="fade-up">
+          <h3 class="faq-list-item-title ac-header">
+            <button type="button" id="iconButtonFaq" class="ac-trigger">
+              What programming languages ​​are most often used in your
+              project?<svg class="icon icon-drop-down" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-drop-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="faq-list-item-text">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-list-item ac" data-aos="fade-up">
+          <h3 class="faq-list-item-title ac-header">
+            <button type="button" class="ac-trigger">
+              What are the deadlines for the project?
+              <svg class="icon icon-drop-down" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-drop-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="faq-list-item-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-list-item ac" data-aos="fade-up">
+          <h3 class="faq-list-item-title ac-header">
+            <button type="button" class="ac-trigger">
+              What payment methods do you accept?
+              <svg class="icon icon-drop-down" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-drop-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="faq-list-item-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-list-item ac" data-aos="fade-up">
+          <h3 class="faq-list-item-title ac-header">
+            <button type="button" class="ac-trigger">
+              How can I contact you?
+              <svg class="icon icon-drop-down" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-drop-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="faq-list-item-text">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-list-item ac" data-aos="fade-up">
+          <h3 class="faq-list-item-title ac-header">
+            <button type="button" class="ac-trigger">
+              Do you provide advice or support?
+              <svg class="icon icon-drop-down" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-drop-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="faq-list-item-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-list-item ac" data-aos="fade-up">
+          <h3 class="faq-list-item-title ac-header">
+            <button type="button" class="ac-trigger">
+              What does the process of developing a software product look like
+              from idea to implementation?
+              <svg class="icon icon-drop-down" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-drop-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="faq-list-item-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="faq-background-decore"></div>
+  </div>
+</section>
+
+      <section class="reviews-section container spacer" id="reviews">
+  <h2 class="reviews-title" data-aos="fade-up">REVIEWS</h2>
+  <div class="swiper">
+    <ul class="swiper-wrapper" data-aos="fade-up"></ul>
+    <div class="swiper-button-wrapper" data-aos="fade-up">
+      <button
+        class="swiper-button-prev"
+        aria-label="Previous Slide"
+        tabindex="0"
+      >
+        <svg class="swiper-icon-prev" width="24px" height="24px">
+          <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-slide-right"></use>
+        </svg>
+      </button>
+      <button class="swiper-button-next" aria-label="Next Slide" tabindex="0">
+        <svg class="swiper-icon-next" width="24px" height="24px">
+          <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-slide-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <div id="contacts" class="contacts spacer">
+  <div class="contacts-decore"></div>
+
+  <div class="container">
+    <div class="contacts-wrap">
+      <div class="contact-info">
+        <h2 data-aos="fade-up">
+          let’s <span class="green-text">work together</span>
+        </h2>
+
+        <p class="caption" data-aos="fade-right" data-aos-delay="100">
+          Contact me to transform your ideas into exceptional solutions.
+        </p>
+
+        <ul class="contacts-list">
+          <li class="contact-item" data-aos="fade-right" data-aos-delay="150">
+            <a
+              class="link"
+              href="tel:+380904567890"
+              aria-label="Call me"
+              tabindex="0"
+            >
+              <svg class="icon-phone" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-phone"></use>
+              </svg>
+              <span>+38 090 456 78 90</span>
+            </a>
+          </li>
+          <li class="contact-item" data-aos="fade-right" data-aos-delay="200">
+            <a
+              class="link"
+              href="mailto:lloydjefferson@gmail.com"
+              aria-label="Email to me"
+              tabindex="0"
+            >
+              <svg class="icon-mail" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-mail"></use>
+              </svg>
+              <span>lloydjefferson@gmail.com</span>
+            </a>
+          </li>
+          <li class="contact-item" data-aos="fade-right" data-aos-delay="250">
+            <a
+              class="link"
+              href="https://maps.app.goo.gl/Ct7PuVPrGhJZiskX6"
+              aria-label="See where you can find me"
+              tabindex="0"
+              target="_blank"
+            >
+              <svg class="icon-point" width="24" height="24">
+                <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-point"></use>
+              </svg>
+              <span>USA, New York</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-side">
+        <form
+          id="contact_form"
+          class="contact-form"
+          data-aos="fade-up-left"
+          data-aos-delay="100"
+        >
+          <label for="customer_email" class="email-label">
+            <input
+              type="email"
+              name="customer_email"
+              id="customer_email"
+              placeholder="Your email*"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+              aria-label="Enter your email"
+              tabindex="0"
+              required
+            />
+
+            <svg class="icon-success" width="16" height="16">
+              <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-success"></use>
+            </svg>
+
+            <span id="error_message"></span>
+          </label>
+
+          <textarea
+            name="customer_message"
+            id="customer_message"
+            cols="30"
+            rows="5"
+            placeholder="Message"
+            aria-label="Text me a nessage"
+            tabindex="0"
+          ></textarea>
+
+          <button
+            type="submit"
+            id="form_submit"
+            class="form-submit"
+            aria-label="Send Request"
+            tabindex="0"
+          >
+            SEND MESSAGE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close-btn">
+      <svg class="icon-x" width="24" height="24">
+        <use href="/js_103_Sanetchek/assets/sprite-ed0f59e7.svg#icon-x"></use>
+      </svg>
+    </button>
+
+    <p class="modal-title"></p>
+    <p class="modal-message"></p>
+  </div>
+</div>
+
+    </main>
+
+    <footer class="footer spacer">
+  <div class="container">
+    <div class="footer-container">
+      <a
+        class="logo-footer"
+        href="https://sanetchek.github.io/portfolio/"
+        aria-label="Home"
+        tabindex="0"
+        data-aos="fade-up"
+        >LLOYD<span class="green-text">JEFFERSON</span></a
+      >
+      <div class="footer-soc-link">
+        <ul>
+          <li class="footer-link" data-aos="fade-right" data-aos-delay="100">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              aria-label="Instagram"
+              tabindex="0"
+              >Instagram
+            </a>
+          </li>
+          <li class="footer-link" data-aos="fade-right" data-aos-delay="150">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              aria-label="Facebook"
+              tabindex="0"
+              >Facebook
+            </a>
+          </li>
+          <li class="footer-link" data-aos="fade-right" data-aos-delay="250">
+            <a
+              href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+              target="_blank"
+              aria-label="Linkedin"
+              tabindex="0"
+              >Linkedin
+            </a>
+          </li>
+          <li class="footer-link" data-aos="fade-right" data-aos-delay="350">
+            <a
+              href="https://github.com/Sanetchek/portfolio"
+              target="_blank"
+              aria-label="GitHub"
+              tabindex="0"
+              >GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-text">© Copyright 2024. Made by LloydJefferson</p>
+  </div>
+</footer>
+
+
+    
+  </body>
+</html>
